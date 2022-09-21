@@ -1,5 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import "./VendingMachine.css";
 
 import Home from "./Home";
 import NavBar from "./NavBar";
@@ -11,11 +13,12 @@ function VendingMachine(): JSX.Element {
   return (
     <Router>
       <NavBar />
+      <h1 className="VendingMachine-title">Vending Machine</h1>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/squid" element={<Squid />} />
-        <Route path="/okra" element={<Okra />} />
-        <Route path="/hominy" element={<Hominy />} />
+        <Route path="squid" element={<Squid />} />
+        <Route path="okra" element={<Okra />} />
+        <Route path="hominy" element={<Hominy />} />
       </Routes>
     </Router>
   );
