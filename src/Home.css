@@ -1,0 +1,13 @@
+.Home-item-list {
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.Home-item-list li {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.Home-item-list li a {
+  color: black;
+}
