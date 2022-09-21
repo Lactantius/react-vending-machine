@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.70a58df8.css",
-    "main.js": "/static/js/main.91cd9b47.js",
-    "static/js/787.595edb79.chunk.js": "/static/js/787.595edb79.chunk.js",
-    "index.html": "/index.html",
-    "main.70a58df8.css.map": "/static/css/main.70a58df8.css.map",
-    "main.91cd9b47.js.map": "/static/js/main.91cd9b47.js.map",
-    "787.595edb79.chunk.js.map": "/static/js/787.595edb79.chunk.js.map"
+    "main.css": "/react-vending-machine/static/css/main.70a58df8.css",
+    "main.js": "/react-vending-machine/static/js/main.c65735ed.js",
+    "static/js/787.595edb79.chunk.js": "/react-vending-machine/static/js/787.595edb79.chunk.js",
+    "index.html": "/react-vending-machine/index.html",
+    "main.70a58df8.css.map": "/react-vending-machine/static/css/main.70a58df8.css.map",
+    "main.c65735ed.js.map": "/react-vending-machine/static/js/main.c65735ed.js.map",
+    "787.595edb79.chunk.js.map": "/react-vending-machine/static/js/787.595edb79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70a58df8.css",
-    "static/js/main.91cd9b47.js"
+    "static/js/main.c65735ed.js"
   ]
 }
