@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  NavLink,
+} from "react-router-dom";
 
 import "./VendingMachine.css";
 
@@ -20,6 +25,9 @@ function VendingMachine(): JSX.Element {
         <Route path="okra" element={<Okra />} />
         <Route path="hominy" element={<Hominy />} />
       </Routes>
+      <NavLink className="VendingMachine-home-link" to="/" end>
+        Back to Home
+      </NavLink>
     </Router>
   );
 }

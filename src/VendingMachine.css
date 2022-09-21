@@ -1,3 +1,7 @@
 .VendingMachine-title {
   font-size: 4rem;
 }
+
+.VendingMachine-home-link.active {
+  display: none;
+}
